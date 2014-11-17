@@ -15,6 +15,10 @@
 		2F30E0BC1A19744800BAF9AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F30E0BA1A19744800BAF9AD /* LaunchScreen.xib */; };
 		2F30E0C81A19744800BAF9AD /* GePS_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30E0C71A19744800BAF9AD /* GePS_PrototypeTests.swift */; };
 		2FF0B5951A19810500471D4C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0B5941A19810500471D4C /* ThirdViewController.swift */; };
+		2FF0B5991A198B9800471D4C /* Home Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF0B5961A198B9800471D4C /* Home Button.png */; };
+		2FF0B59A1A198B9800471D4C /* List Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF0B5971A198B9800471D4C /* List Button.png */; };
+		2FF0B59B1A198B9800471D4C /* Settings Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF0B5981A198B9800471D4C /* Settings Button.png */; };
+		2FF0B59D1A198C6700471D4C /* GeneralOne.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2FF0B59C1A198C6700471D4C /* GeneralOne.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		2F30E0C61A19744800BAF9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F30E0C71A19744800BAF9AD /* GePS_PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GePS_PrototypeTests.swift; sourceTree = "<group>"; };
 		2FF0B5941A19810500471D4C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2FF0B5961A198B9800471D4C /* Home Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Button.png"; sourceTree = "<group>"; };
+		2FF0B5971A198B9800471D4C /* List Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List Button.png"; sourceTree = "<group>"; };
+		2FF0B5981A198B9800471D4C /* Settings Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings Button.png"; sourceTree = "<group>"; };
+		2FF0B59C1A198C6700471D4C /* GeneralOne.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeneralOne.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 		2F30E0AD1A19744800BAF9AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FF0B59C1A198C6700471D4C /* GeneralOne.PNG */,
+				2FF0B5961A198B9800471D4C /* Home Button.png */,
+				2FF0B5971A198B9800471D4C /* List Button.png */,
+				2FF0B5981A198B9800471D4C /* Settings Button.png */,
 				2F30E0AE1A19744800BAF9AD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,9 +209,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF0B59A1A198B9800471D4C /* List Button.png in Resources */,
 				2F30E0B71A19744800BAF9AD /* Main.storyboard in Resources */,
 				2F30E0BC1A19744800BAF9AD /* LaunchScreen.xib in Resources */,
+				2FF0B59B1A198B9800471D4C /* Settings Button.png in Resources */,
 				2F30E0B91A19744800BAF9AD /* Images.xcassets in Resources */,
+				2FF0B5991A198B9800471D4C /* Home Button.png in Resources */,
+				2FF0B59D1A198C6700471D4C /* GeneralOne.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
