@@ -14,6 +14,7 @@
 		2F30E0B91A19744800BAF9AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F30E0B81A19744800BAF9AD /* Images.xcassets */; };
 		2F30E0BC1A19744800BAF9AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F30E0BA1A19744800BAF9AD /* LaunchScreen.xib */; };
 		2F30E0C81A19744800BAF9AD /* GePS_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30E0C71A19744800BAF9AD /* GePS_PrototypeTests.swift */; };
+		2FF0B5951A19810500471D4C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0B5941A19810500471D4C /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2F30E0C11A19744800BAF9AD /* GePS_PrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GePS_PrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F30E0C61A19744800BAF9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F30E0C71A19744800BAF9AD /* GePS_PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GePS_PrototypeTests.swift; sourceTree = "<group>"; };
+		2FF0B5941A19810500471D4C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				2F30E0AF1A19744800BAF9AD /* AppDelegate.swift */,
 				2F30E0B11A19744800BAF9AD /* FirstViewController.swift */,
 				2F30E0B31A19744800BAF9AD /* SecondViewController.swift */,
+				2FF0B5941A19810500471D4C /* ThirdViewController.swift */,
 				2F30E0B51A19744800BAF9AD /* Main.storyboard */,
 				2F30E0B81A19744800BAF9AD /* Images.xcassets */,
 				2F30E0BA1A19744800BAF9AD /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			files = (
 				2F30E0B41A19744800BAF9AD /* SecondViewController.swift in Sources */,
 				2F30E0B01A19744800BAF9AD /* AppDelegate.swift in Sources */,
+				2FF0B5951A19810500471D4C /* ThirdViewController.swift in Sources */,
 				2F30E0B21A19744800BAF9AD /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +412,7 @@
 				2F30E0CD1A19744800BAF9AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F30E0CE1A19744800BAF9AD /* Build configuration list for PBXNativeTarget "GePS_PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +421,7 @@
 				2F30E0D01A19744800BAF9AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
