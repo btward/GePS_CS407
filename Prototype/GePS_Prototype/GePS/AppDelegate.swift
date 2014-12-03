@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  GePS_Prototype
+//  GePS
 //
-//  Created by Tyler on 11/16/14.
-//
+//  Created by Tyler Grace on 12/2/14.
+//  Copyright (c) 2014 Tyler Grace. All rights reserved.
 //
 
 import UIKit

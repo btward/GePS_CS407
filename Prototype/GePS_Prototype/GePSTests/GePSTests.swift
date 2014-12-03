@@ -1,15 +1,15 @@
 //
-//  GePS_PrototypeTests.swift
-//  GePS_PrototypeTests
+//  GePSTests.swift
+//  GePSTests
 //
-//  Created by Tyler on 11/16/14.
-//
+//  Created by Tyler Grace on 12/2/14.
+//  Copyright (c) 2014 Tyler Grace. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class GePS_PrototypeTests: XCTestCase {
+class GePSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

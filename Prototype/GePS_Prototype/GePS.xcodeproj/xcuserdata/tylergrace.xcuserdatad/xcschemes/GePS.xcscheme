@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F30E0A91A19744800BAF9AD"
-               BuildableName = "GePS_Prototype.app"
-               BlueprintName = "GePS_Prototype"
-               ReferencedContainer = "container:GePS_Prototype.xcodeproj">
+               BlueprintIdentifier = "E548327B1A2E86C8004F4675"
+               BuildableName = "GePS.app"
+               BlueprintName = "GePS"
+               ReferencedContainer = "container:GePS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F30E0C01A19744800BAF9AD"
-               BuildableName = "GePS_PrototypeTests.xctest"
-               BlueprintName = "GePS_PrototypeTests"
-               ReferencedContainer = "container:GePS_Prototype.xcodeproj">
+               BlueprintIdentifier = "E54832921A2E86C8004F4675"
+               BuildableName = "GePSTests.xctest"
+               BlueprintName = "GePSTests"
+               ReferencedContainer = "container:GePS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F30E0C01A19744800BAF9AD"
-               BuildableName = "GePS_PrototypeTests.xctest"
-               BlueprintName = "GePS_PrototypeTests"
-               ReferencedContainer = "container:GePS_Prototype.xcodeproj">
+               BlueprintIdentifier = "E54832921A2E86C8004F4675"
+               BuildableName = "GePSTests.xctest"
+               BlueprintName = "GePSTests"
+               ReferencedContainer = "container:GePS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F30E0A91A19744800BAF9AD"
-            BuildableName = "GePS_Prototype.app"
-            BlueprintName = "GePS_Prototype"
-            ReferencedContainer = "container:GePS_Prototype.xcodeproj">
+            BlueprintIdentifier = "E548327B1A2E86C8004F4675"
+            BuildableName = "GePS.app"
+            BlueprintName = "GePS"
+            ReferencedContainer = "container:GePS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F30E0A91A19744800BAF9AD"
-            BuildableName = "GePS_Prototype.app"
-            BlueprintName = "GePS_Prototype"
-            ReferencedContainer = "container:GePS_Prototype.xcodeproj">
+            BlueprintIdentifier = "E548327B1A2E86C8004F4675"
+            BuildableName = "GePS.app"
+            BlueprintName = "GePS"
+            ReferencedContainer = "container:GePS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F30E0A91A19744800BAF9AD"
-            BuildableName = "GePS_Prototype.app"
-            BlueprintName = "GePS_Prototype"
-            ReferencedContainer = "container:GePS_Prototype.xcodeproj">
+            BlueprintIdentifier = "E548327B1A2E86C8004F4675"
+            BuildableName = "GePS.app"
+            BlueprintName = "GePS"
+            ReferencedContainer = "container:GePS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
