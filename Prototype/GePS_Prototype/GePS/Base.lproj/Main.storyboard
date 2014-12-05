@@ -252,7 +252,7 @@
         <scene sceneID="XWH-sb-JVc">
             <objects>
                 <navigationController title="Lists" id="3Rd-XT-gCs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Lists" image="second" id="Unt-Cr-lDV"/>
+                    <tabBarItem key="tabBarItem" title="Lists" image="numbered_list-32.png" id="Unt-Cr-lDV"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xw9-EG-rk2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -381,7 +381,7 @@
         <scene sceneID="h4Q-md-bzO">
             <objects>
                 <navigationController id="zm4-ey-kGs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="first" selectedImage="first" id="Obs-Vi-o8a"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="mobile_home-32.png" selectedImage="first" id="Obs-Vi-o8a"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ycl-2Y-Zxl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -450,7 +450,7 @@
                             <constraint firstItem="Z6u-2X-o5n" firstAttribute="leading" secondItem="Ans-eK-SyT" secondAttribute="leading" id="zLK-kV-bGu"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="second" id="b8O-aS-HWo"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings-32.png" id="b8O-aS-HWo"/>
                     <navigationItem key="navigationItem" id="MEH-aO-oDg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wy8-0b-vsq" sceneMemberID="firstResponder"/>
@@ -823,10 +823,13 @@
         <image name="GeneralOne.PNG" width="653" height="439"/>
         <image name="MapPath3.PNG" width="796" height="793"/>
         <image name="first" width="30" height="30"/>
+        <image name="mobile_home-32.png" width="32" height="32"/>
+        <image name="numbered_list-32.png" width="32" height="32"/>
         <image name="second" width="30" height="30"/>
+        <image name="settings-32.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="1aU-lU-8GN"/>
         <segue reference="wHv-Gz-oLY"/>
-        <segue reference="yZi-Ne-AxX"/>
     </inferredMetricsTieBreakers>
 </document>
