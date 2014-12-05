@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,8 +10,11 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
                     <rect key="frame" x="20" y="145" width="441" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="uUm-I3-wMN"/>
+                    </constraints>
                     <attributedString key="attributedText">
                         <fragment content="GePS">
                             <attributes>
@@ -26,15 +28,21 @@
                     <color key="shadowColor" red="0.49803924560000001" green="0.66666668650000005" blue="0.91372555489999996" alpha="0.56000000000000005" colorSpace="deviceRGB"/>
                     <size key="shadowOffset" width="-4" height="3"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11954275791751619642cart_pommi_02.svg.med.png" translatesAutoresizingMaskIntoConstraints="NO" id="k1P-Ap-NhS">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11954275791751619642cart_pommi_02.svg.med.png" translatesAutoresizingMaskIntoConstraints="NO" id="k1P-Ap-NhS">
                     <rect key="frame" x="120" y="196" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="GoL-dD-6at"/>
+                        <constraint firstAttribute="width" constant="240" id="SZI-kG-fv0"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="1" id="5cJ-9S-tgC"/>
-                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="32N-SC-tAe"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="AXz-0J-iRO"/>
+                <constraint firstItem="k1P-Ap-NhS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="196" id="Vt5-tq-gNy"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerX" secondItem="k1P-Ap-NhS" secondAttribute="centerX" id="dDY-Wu-ORf"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="145" id="gAS-bc-Sy0"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

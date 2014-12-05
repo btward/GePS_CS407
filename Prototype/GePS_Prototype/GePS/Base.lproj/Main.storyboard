@@ -246,7 +246,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lbD-cx-6eJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4280" y="-942"/>
+            <point key="canvasLocation" x="5092" y="-942"/>
         </scene>
         <!--Lists-->
         <scene sceneID="XWH-sb-JVc">
@@ -357,17 +357,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GeneralOne.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="9ym-7z-tPh">
-                                                    <rect key="frame" x="0.0" y="20" width="375" height="329"/>
+                                                    <rect key="frame" x="0.0" y="73" width="375" height="329"/>
                                                     <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="375" id="IoM-LI-FRU"/>
+                                                        <constraint firstAttribute="width" constant="375" id="i0B-TZ-wJS"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="9ym-7z-tPh" secondAttribute="bottom" constant="-3" id="9ND-cb-xh1"/>
-                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="top" secondItem="deI-2i-KQL" secondAttribute="topMargin" constant="12" id="S17-ou-r1q"/>
-                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="leading" secondItem="deI-2i-KQL" secondAttribute="leading" id="jV8-5E-U3F"/>
+                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="top" secondItem="deI-2i-KQL" secondAttribute="topMargin" constant="65" id="Sz4-cv-xhD"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="9ym-7z-tPh" secondAttribute="bottom" constant="-56" id="koX-8k-cuM"/>
+                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="leading" secondItem="deI-2i-KQL" secondAttribute="leading" id="xDf-74-Krs"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -390,6 +390,7 @@
             <objects>
                 <navigationController id="zm4-ey-kGs" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="mobile_home-32.png" id="Obs-Vi-o8a"/>
+                    <navigationItem key="navigationItem" id="18r-lx-uin"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ycl-2Y-Zxl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -823,7 +824,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X1I-4R-gPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4280" y="-211"/>
+            <point key="canvasLocation" x="5092" y="-211"/>
         </scene>
     </scenes>
     <resources>
