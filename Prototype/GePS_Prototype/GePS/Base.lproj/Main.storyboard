@@ -351,23 +351,29 @@
                                             <segue destination="nY2-lD-OqG" kind="show" id="l3N-N8-ADQ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="355" id="7nr-15-Sx5">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="0lo-yO-fpY">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0lo-yO-fpY" id="MSd-40-9Ai">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="385" id="7nr-15-Sx5">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7nr-15-Sx5" id="deI-2i-KQL">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GeneralOne.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="9ym-7z-tPh">
-                                                    <rect key="frame" x="0.0" y="73" width="375" height="329"/>
+                                                <imageView contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="GeneralOne.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="9ym-7z-tPh">
+                                                    <rect key="frame" x="0.0" y="31" width="375" height="329"/>
                                                     <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="375" id="i0B-TZ-wJS"/>
+                                                        <constraint firstAttribute="width" constant="375" id="CbU-8R-vcW"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="top" secondItem="deI-2i-KQL" secondAttribute="topMargin" constant="65" id="Sz4-cv-xhD"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="9ym-7z-tPh" secondAttribute="bottom" constant="-56" id="koX-8k-cuM"/>
-                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="leading" secondItem="deI-2i-KQL" secondAttribute="leading" id="xDf-74-Krs"/>
+                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="top" secondItem="deI-2i-KQL" secondAttribute="topMargin" constant="23" id="3Ta-nf-NMJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="9ym-7z-tPh" secondAttribute="bottom" constant="-14" id="BOB-0f-MOd"/>
+                                                <constraint firstItem="9ym-7z-tPh" firstAttribute="leading" secondItem="deI-2i-KQL" secondAttribute="leading" id="O9h-IN-D3l"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
